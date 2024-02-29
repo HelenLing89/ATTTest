@@ -1,0 +1,16 @@
+PODS:
+  - ATTTest (0.1.0)
+
+DEPENDENCIES:
+  - ATTTest (from `../`)
+
+EXTERNAL SOURCES:
+  ATTTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ATTTest: 7c85d7d9b1e6691e813bb6140c9d063c64c60c14
+
+PODFILE CHECKSUM: f993073e7c1dbe22b242e93caf6d28a3bba1c416
+
+COCOAPODS: 1.10.2

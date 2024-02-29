@@ -1,0 +1,22 @@
+{
+  "name": "ATTTest",
+  "version": "0.1.0",
+  "summary": "A short description of ATTTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/LT/ATTTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LT": "lingtian02@163.com"
+  },
+  "source": {
+    "git": "https://github.com/LT/ATTTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ATTTest/Classes/**/*"
+}
