@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of ATTTest.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/LT/ATTTest",
+  "homepage": "https://github.com/HelenLing89/ATTTest.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,19 @@
     "LT": "lingtian02@163.com"
   },
   "source": {
-    "git": "https://github.com/LT/ATTTest.git",
+    "git": "https://github.com/HelenLing89/ATTTest.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "11.0"
   },
-  "source_files": "ATTTest/Classes/**/*"
+  "source_files": "ATTTest/Classes/**/*",
+  "user_target_xcconfig": {
+    "GENERATE_INFOPLIST_FILE": "YES"
+  },
+  "pod_target_xcconfig": {
+    "GENERATE_INFOPLIST_FILE": "YES"
+  },
+  "swift_versions": "5",
+  "swift_version": "5"
 }
