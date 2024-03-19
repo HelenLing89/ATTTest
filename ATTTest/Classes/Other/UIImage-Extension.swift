@@ -15,10 +15,9 @@ public extension UIImage {
         #else
         let contentFile = String.init(format: "\(imagePath)/\(path)/\(str)", [])
         #endif
-        if  contentFile == nil  {
+        guard let content = contentFile else {
             return UIImage.init()
         }
-        return UIImage.init(contentsOfFile: contentFile)!
+        return UIImage.init(contentsOfFile: content)!
     }
 }
-
