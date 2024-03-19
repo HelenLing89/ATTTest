@@ -18,6 +18,6 @@ public extension UIImage {
         guard let content = contentFile else {
             return UIImage.init()
         }
-        return UIImage.init(contentsOfFile: content)!
+        return UIImage.init(contentsOfFile: content!)!
     }
 }
